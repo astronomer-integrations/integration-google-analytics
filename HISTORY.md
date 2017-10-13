@@ -1,3 +1,83 @@
+1.10.0 / 2017-05-09
+===================
+
+  * Add explicit support for mobile event campaign objects
+
+1.9.9 / 2017-04-27
+==================
+
+  * Change addImpression-bound methods to use 'event' as their type
+
+1.9.8 / 2017-04-17
+==================
+
+  * Push release
+
+1.9.6 / 2017-03-29
+==================
+
+  * Update integration-worker version
+
+1.9.6 / 2017-03-28
+==================
+
+  * Update integration-worker version
+
+1.9.5 / 2017-03-09
+==================
+
+  * Changed sorters -> sorts to match spec
+  * Protected expected array inputs
+
+1.9.4 / 2017-03-07
+==================
+
+  * Corrected to integration-worker errors.
+
+1.9.3 / 2017-03-07
+==================
+
+  * Add support for addImpression action
+
+1.8.3 / 2017-02-10
+==================
+
+  * Update integration-worker version
+
+1.8.2 / 2017-02-10
+==================
+
+  * Trigger build to ensure a version of the integration-worker with https://github.com/segmentio/integration-worker/pull/93 is used
+
+1.8.1 / 2017-02-06
+==================
+
+  * Handle gracefully when sending malformed products array
+
+1.8.0 / 2017-01-31
+==================
+
+  * Standardize integration (linting, Docker configuration, circle.yml, upgrade
+segmentio-integration version, upgrade integration-worker version, etc.)
+
+
+1.7.3 / 2016-11-03
+==================
+
+  * Replace nonascii characters with '?' in userAgent headers to prevent uncaughts
+
+1.7.2 / 2016-10-06
+==================
+
+  * Fix a bug where iOS events weren't populating reports based on userAgent
+
+1.7.1 / 2016-09-29
+==================
+
+  * Update segmentio-integration to v5 (#55)
+  * Fix test assertions on new integration-tester version (#53)
+  * CircleCI: Run deployment only when tags are pushed
+  * CircleCI: Update circle.yml to install npm@2, ditch unnecessary deps (#56)
 
 1.7.0 / 2016-09-06
 ==================
